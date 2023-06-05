@@ -1,0 +1,13 @@
+Feature: US06 - Sistema de reacciones y comentarios
+
+Como potencial afectado por algun desastre
+Quiero poder reaccionar o comentar en las evidencias compartidas por otros usuarios
+Para asi agradecerle por su aviso
+
+Scenario 01: Vista de informacion del desastre
+Dado que el usuario se encuentra en la pagina de inicio
+Y se ubique en la parte de "Comentar"
+Cuando el usuario quiera desea expresarse, se dirige a la parte inferior de la página 
+donde puede escribir sus comentarios y sentimientos en relación a la publicación
+Y además el usuario puede utilizar las reacciones disponibles para expresar su 
+aprecio o acuerdo con la publicación
