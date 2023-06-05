@@ -1,0 +1,12 @@
+Feature: US02 - Implementacion del mapa
+
+Como usuario
+Quiero visualizar un mapa que se centre en la ubicacion en la que me encuentro
+Para asi poder ver que este pasando cerca de mi ubicacion
+
+Scenario 01: Visualizacion del mapa
+Dado que el usuario se encuentra en la pagina de inicio
+Cuando el usuario quiera observar el mapa
+Entonces se dirige al icono de su perfil
+Luego presiona el icono de "Mapa" en la ventana desplegable
+Y el mapa se centra automáticamente en la ubicación actual del usuario
