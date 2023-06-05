@@ -1,0 +1,15 @@
+Feature: US07 - Filtros para el Mapa
+
+Como usuario
+Quiero poder aplicar filtros en el mapa para mostrar los tipos de desastres que deseo ver
+Para mantenerme informado sobre desastres relevantes
+
+Scenario 01: Filtros de desastres
+Dado que el usuario se encuentra en la pagina de inicio
+Cuando el usuario quiera observar el mapa
+Entonces se dirige al icono de su perfil
+Luego selecciona el icono "Mapa" en el menú desplegable
+Dado que el usuario se encuentra en la sección de "Mapa" y se dirige a la parte 
+inferior donde encuentra iconos representando distintos desastres naturales o accidentes
+Cuando el usuario haga click en uno de esos iconos
+Entonces en el mapa se visualizan las zonas donde ocurre ese tipo de desastre
