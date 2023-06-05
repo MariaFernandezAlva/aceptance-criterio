@@ -1,0 +1,13 @@
+Feature: US01 - Registro a traves de correo electronico
+
+Como usuario 
+Quiero poder registrarme tanto en la web como en la app a traves de mi correo electronico
+Para poder acceder rápidamente al aplicativo cuando lo desee
+
+Scenario 01: Registro exitoso
+Dado que el usuario se encuentre en el formulario de registro
+Cuando seleccione "Crear nueva cuenta"
+Entonces le mostrara para llenar su correo electronico y para poner su contraseña
+Luego se muestra una ventana donde tendra que llenar los datos correspondientes
+Dado que el usuario ya lleno sus datos
+Entonces el usuario ya podra ingresar al aplicativo móvil
