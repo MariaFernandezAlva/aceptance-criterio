@@ -1,0 +1,19 @@
+Feature: US05 - Foro de recomendaciones ante desastres
+
+Como potencial afectado por algun desastre
+Quiero saber qué hacer en caso de encontrarme ante un desastre
+Para prevenir y enseñar a otros
+
+Scenario 01: Visualizacion del foro de recomendaciones
+Dado que el usuario se encuentra en la pagina de inicio
+Cuando el usuario deseea acceder al foro de recomendaciones
+Entonces el usuario hace clic en el icono de su perfil
+Luego selecciona el icono "Guía de Emergencias" en el menú desplegable
+Dado que el usuario se encuentra en la sección de "Guía de Emergencias"y puede visualizar 
+una lista de los desastres y accidentes más frecuentes en el Perú
+Y si el usuario desea encontrar rápidamente un desastre específico, puede hacer clic en 
+el icono de "Lupa" y buscar por nombre el desastre deseado
+Cuando al seleccionar un desastre, se mostrará una guía con tres 
+opciones: "Antes", "Durante" y "Después"
+Donde cada una de estas opciones proporcionará al usuario una serie de pasos a seguir, 
+brindando recomendaciones y consejos para cada etapa del desastre
