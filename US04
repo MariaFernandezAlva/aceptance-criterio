@@ -1,0 +1,18 @@
+Feature: US04 - Espacio para añadir Evidencia
+
+Como testigo de un desastre
+Quiero tener un espacio para agregar evidencia sobre algún desastre presenciado
+Para alertar a otras personas cercanas al desastre que no se hayan dado cuenta
+
+Scenario 01: Importación de Evidencia
+Dado que el usuario se encuentra en la pagina de inicio
+Cuando el usuario se ubica en la parte inferior de la página
+Entonces selecciona el icono "+" para crear una nueva publicación
+Cuando el usuario ingresa al apartado de "Nueva publicación"
+Luego el usuario puede seleccionar si desea agregar evidencia en forma de imagen, video o ambos
+Entonces el usuario hace click en el botón "Galería" para cargar sus imágenes
+Y si el usuario desea tomar una foto en ese momento, puede hacer clic en el icono de la cámara
+Dado que el usuario ha subido la evidencia, debe completar los datos requeridos para la publicación, 
+como la ubicación del desastre, una descripción del mismo y el nombre del autor de la publicación
+Luego el usuario hace click en el icono de verificación "✓"
+Entonces la publicacion se publica exitosamente
