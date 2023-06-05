@@ -1,0 +1,16 @@
+Feature: US03 - Modificar el tema de la interfaz
+
+Como usuario
+Quiero modificar el tema de la interfaz a uno oscuro
+Para sentirme más cómodo mientras uso la aplicación
+
+Scenario 01: Cambio de tema de la interfaz
+Dado que el usuario se encuentra en la pagina de inicio
+Cuando el usuario desee cambiar el tema de la interfaz
+Entonces el usuario hace clic en el icono de su perfil
+Luego selecciona el ícono que muestra una combinación de luna y 
+sol en la ventana desplegable
+Luego el usuario elige una de las dos opciones 
+disponibles: "Tema Claro" o "Tema Oscuro"
+Entonces la interfaz se actualizara automaticamente según 
+la opción seleccionada
