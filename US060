@@ -1,13 +1,14 @@
-Feature: US06 - Sistema de reacciones y comentarios
+Feature: US14 - Comodidad de la web
 
-Como potencial afectado por algun desastre
-Quiero poder reaccionar o comentar en las evidencias compartidas por otros usuarios
-Para asi agradecerle por su aviso
+Como usuario
+Quiero ver la pagina web de manera que no se deforme la información vista en pantalla
+Para asi sentirme mas comodo con la web y seguir usandolo
 
-Scenario 01: Vista de informacion del desastre
-Dado que el usuario se encuentra en la pagina de inicio
-Y se ubique en la parte de "Comentar"
-Cuando el usuario quiera desea expresarse, se dirige a la parte inferior de la página 
-donde puede escribir sus comentarios y sentimientos en relación a la publicación
-Y además el usuario puede utilizar las reacciones disponibles para expresar su 
-aprecio o acuerdo con la publicación
+Scenario 01: Reducir la ventana
+Dado que el usuario se encuentra navegando por el lading page
+Cuando el usuario desee disminuir el tamaño de la ventana debido a cualquier imprevisto
+o necesidad,
+Entonces el diseño y la presentación de la información en la página web se ajustarán
+de manera automática y dinámica, adaptándose al nuevo tamaño de la ventana.
+Y si desea volver al tamaño original del lading page
+Entonces el diseño se acomodara nuevamente a sus posiciones iniciales
