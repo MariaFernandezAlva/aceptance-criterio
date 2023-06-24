@@ -1,13 +1,21 @@
-Feature: US01 - Registro a traves de correo electronico
+Feature: US01 - Inicio de sesión accesible
 
 Como usuario 
-Quiero poder registrarme tanto en la web como en la app a traves de mi correo electronico
-Para poder acceder rápidamente al aplicativo cuando lo desee
+Quiero poder registrarme al inicio de la pagina web
+Para no demorarme en el momento que quiera entrar
 
-Scenario 01: Registro exitoso
+Scenario 01: Registro por el aplicativo
 Dado que el usuario se encuentre en el formulario de registro
 Cuando seleccione "Crear nueva cuenta"
 Entonces le mostrara para llenar su correo electronico y para poner su contraseña
 Luego se muestra una ventana donde tendra que llenar los datos correspondientes
 Dado que el usuario ya lleno sus datos
 Entonces el usuario ya podra ingresar al aplicativo móvil
+
+Scenario 02: Registro por el lading page
+Dado que el usuario esta en el lading page
+Y se ubique en el formulario de registro
+Cuando seleccione "Crear nueva cuenta"
+Entonces le mostrara para llenar su correo electronico y para poner su contraseña
+Dado que el usuario ya lleno sus datos
+Entonces el usuario presionara el botón de "Iniciar Sesión"
