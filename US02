@@ -1,12 +1,14 @@
-Feature: US02 - Implementacion del mapa
+Feature: US06 - Vistazo a los tipos de desastres ocurridos
 
 Como usuario
-Quiero visualizar un mapa que se centre en la ubicacion en la que me encuentro
-Para asi poder ver que este pasando cerca de mi ubicacion
+Quiero ver los tipos de desastres ocurridos junto a una descripcion 
+Para asi poder informarme y tomar medidas.
 
-Scenario 01: Visualizacion del mapa
+Scenario 01: Apartado de desastres que ocurren en el momento
 Dado que el usuario se encuentra en la pagina de inicio
 Cuando el usuario quiera observar el mapa
 Entonces se dirige al icono de su perfil
-Luego presiona el icono de "Mapa" en la ventana desplegable
-Y el mapa se centra automáticamente en la ubicación actual del usuario
+Luego selecciona el icono "Mapa" en el menú desplegable
+Dado que el usuario se encuentra en la sección de "Mapa" y se dirige a la parte inferior donde encuentra iconos representando distintos desastres naturales o accidentes
+Cuando el usuario haga click en uno de esos iconos
+Entonces en el mapa se visualizan las zonas donde ocurre ese tipo de desastre
