@@ -1,0 +1,12 @@
+Feature: US09 - Vista previa de alerta
+
+Como potencial afectado por algun desastre
+Quiero observar como son las alertas
+Para asi sentirme seguro de como aparece cuando es una alerta de la web
+
+Scenario 01: Muestra de alerta
+Dado que el usuario se encuentra en la sección de "Alertas",
+Cuando el usuario observa una vista previa de la alerta en caso de ocurrir un desastre,
+Entonces al seleccionar el botón de "Vista previa" al final de la sección,
+Y mostrará brevemente un pequeño apartado que exhibirá la alerta durante unos segundos
+Luego el apartado desaparecerá.
