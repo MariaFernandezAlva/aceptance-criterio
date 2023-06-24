@@ -1,10 +1,10 @@
-Feature: US05 - Foro de recomendaciones ante desastres
+Feature: US11 - Acceso rápido a la guía de desastres
 
 Como potencial afectado por algun desastre
-Quiero saber qué hacer en caso de encontrarme ante un desastre
-Para prevenir y enseñar a otros
+Quiero acceder al desastre el cual quiero informarme
+Para asi evitar perdida de tiempo en momentos criticos
 
-Scenario 01: Visualizacion del foro de recomendaciones
+Scenario 01: Rapidez de la guía
 Dado que el usuario se encuentra en la pagina de inicio
 Cuando el usuario deseea acceder al foro de recomendaciones
 Entonces el usuario hace clic en el icono de su perfil
