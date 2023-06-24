@@ -1,0 +1,16 @@
+Feature: US15 - Entretenimiento en la web
+
+Como usuario
+Quiero tener varios objetos interactivos en la página web
+Para sentirme actualizado y entretenido durante mi navegación
+
+Scenario 01: Entretenimiento en la web
+
+Dado que el usuario se encuentra navegando por la web
+Cuando el usuario quiera desplazarse por la página web o interactuar con ella.
+Entonces la página web ofrecerá una variedad de elementos interactivos, como 
+botones, transiciones y animaciones, que añadirán un toque de entretenimiento y 
+modernidad a la experiencia de navegación del usuario.
+Cuando halla interaccion con los botones y transiciones, el usuario disfrutará de 
+efectos visuales agradables que añadirán dinamismo y entretenimiento a su experiencia
+de navegación.
